@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Cat App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Honk&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Cat App</h1>
+		<div class="sign-in">
+			<form>
+				<h2>Sign in</h2>
+				<label><span>Name:</span> <input type="text" class="name" name="name" value="john" /></label>
+				<label>
+					<span>Plan:</span>
+					<select class="plan" name="plan">
+						<option value="basic">basic</option>
+						<option value="advanced">advanced</option>
+					</select>
+				</label>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+
+		<div class="ide hidden">
+			<div class="ide-content">
+				<div class="sign-out"><p>Sign out</p></div>
+				<h2>My Apps</h2>
+				<ul class="scripts-list">
+					<li>loading...</li>
+				</ul>
+
+				<hr />
+				<h2>New App</h2>
+				<label>Name <input type="text" class="script-name" value="cute-cat" /></label>
+				<button class="upload-btn">Upload script</button>
+				<div class="info">[]</div>
+				<div class="editor-container"></div>
+			</div>
+		</div>
+		<script type="module" src="editor.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

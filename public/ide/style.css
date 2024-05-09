@@ -1,0 +1,104 @@
+body {
+	background: url(./cat.jpg);
+	background-repeat: repeat;
+	background-size: 170px;
+	color: white;
+	font-family: 'Gochi Hand', cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+}
+
+.sign-in {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Honk', system-ui;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		'MORF' 15,
+		'SHLN' 50;
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.ide-content,
+form {
+	background: #353535;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+form {
+	width: 250px;
+}
+
+form label {
+	display: flex;
+	margin: 15px 0;
+	justify-content: space-between;
+}
+
+input,
+select,
+button {
+	width: 150px;
+	font-size: 1rem;
+	box-sizing: border-box;
+	font-family: 'Gochi Hand', cursive;
+}
+
+button {
+	border-radius: 5px;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+form button {
+	margin-top: 20px;
+	width: 100%;
+}
+
+button:hover {
+	background: #d3d3d3;
+}
+
+a,
+a:visited {
+	color: white;
+}
+
+.sign-out {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sign-out p {
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0;
+}
+
+.ide {
+	display: flex;
+	justify-content: center;
+}
+
+.ide-content {
+	width: 900px;
+}
+
+.editor-container {
+	height: 600px;
+}
+
+.hidden {
+	/* display: none !important; */
+	visibility: hidden !important;
+	height: 0;
+}
