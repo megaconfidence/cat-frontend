@@ -37,7 +37,7 @@ API_ORIGIN=http://localhost:8787
 Finally, run the app:
 
 ```sh
-npx start
+npm start
 ```
 
 ## Credits
